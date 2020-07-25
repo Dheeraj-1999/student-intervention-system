@@ -24,7 +24,7 @@ In a terminal or command window, navigate to the top-level project directory `st
 
 
 ### STEPS DONE:
-- Exploring the Data
+- Explore the Data
 - Preparing the Data
   - Identify feature and target columns
 - Preprocess Feature Columns
@@ -32,6 +32,68 @@ In a terminal or command window, navigate to the top-level project directory `st
   - Training and Testing Data Split
   - Model Application
   - Model Performance Metrics
+
+#### explore the data:
+
+- The total number of students, n_students.395
+- The total number of features for each student, n_features. 30
+- The number of those students who passed, n_passed. 265
+- The number of those students who failed, n_failed. 130
+- The graduation rate of the class, grad_rate, in percent (%).67.09
+
+#### Preparing the Data
+
+In this section, prepare the data for modeling, training and testing.
+
+#### Preprocess Feature Columns
+
+There are several non-numeric columns that need to be converted! Many of them are simply yes/no. These can be reasonably converted into 1/0 (binary) values.
+
+These generated columns are sometimes called dummy variables, and we will use the pandas.get_dummies() function to perform this transformation.
+
+#### Training and Testing Data Split
+
+- randomly shuffle and split the data (X_all, y_all) into training and testing subsets.
+- Use 300 training points (approximately 75%) and 95 testing points (approximately 25%).
+
+#### Training
+
+- Ensemble Methods (XgBoost, Random Forest)
+- K-Nearest Neighbors (KNeighbors)
+- Support Vector Machines (SVM)
+- Logistic Regression
+
+#### Evaluating Models
+- RANDOM FOREST CLASSIFIER:
+  - F1 score for training set: 0.8189.
+  - F1 score for test set: 0.8101.
+  - acc score for training set: 0.7067.
+  - acc score for test set: 0.6842.
+- XGBOOST CLASSIFIER:
+  - F1 score for training set: 0.7950.
+  - F1 score for test set: 0.8101.
+  - acc score for training set: 0.6700.
+  - acc score for test set: 0.6842.
+- LogisticRegression:
+  - F1 score for training set: 0.8492.
+  - F1 score for test set: 0.7273.
+  - acc score for training set: 0.7833.
+  - acc score for test set: 0.6211.
+
+- Support vector machine:
+  - F1 score for training set: 0.8230.
+  - F1 score for test set: 0.8153.
+  - acc score for training set: 0.7133.
+  - acc score for test set: 0.6947.
+  
+ 
+KNeighborsClassifier:
+  - F1 score for training set: 0.8515.
+  - F1 score for test set: 0.7917.
+  - acc score for training set: 0.7933.
+  - acc score for test set: 0.6844.
+ 
+ 
 
 ## Data
 
