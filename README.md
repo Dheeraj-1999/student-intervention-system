@@ -1,5 +1,5 @@
-# Project 2: Supervised Learning
-## Building a Student Intervention System
+Supervised Learning
+## Student Intervention System
 
 ### Install
 
