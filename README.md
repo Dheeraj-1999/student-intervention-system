@@ -1,9 +1,12 @@
 Supervised Learning
-## Student Intervention System
+# Student Intervention System
 
+
+## quickly Check the code:
+[code](https://web-resume-dng.herokuapp.com/assets/student_intervention1.html)
 ### Install
 
-This project requires **Python 2.7** and the following Python libraries installed:
+This project requires **Python 3+** and the following Python libraries installed:
 
 - [NumPy](http://www.numpy.org/)
 - [Pandas](http://pandas.pydata.org)
