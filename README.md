@@ -1,6 +1,10 @@
-Supervised Learning
+
 # Student Intervention System
 
+## goal:
+utilize  machine  learning  techniques  to  break down  and  discover  student  academic  performance  and  to enhance   the   nature   of   the   education   framework.The administrations  can  utilize  these  systems  to  enhance  the course  results  to  enhance  the  student  performance.  Such information can be utilized to give a decent comprehension of   student’s   enrollment pattern  in  the  courses  under study.
+
+In Future  this  kind  of  analysis  can  be  implemented  with  a bigger  dataset  and  more  background  factors  of  student  at the  first-year  academic  level.
 
 ## quickly Check the code:
 [code](https://web-resume-dng.herokuapp.com/assets/student_intervention1.html)
@@ -146,6 +150,11 @@ KNeighborsClassifier:
   - F1 score for test set: 0.7917.
   - acc score for training set: 0.7933.
   - acc score for test set: 0.6844.
+
+
+### ANALYSIS:
+
+- F1 score measure is taken to find student’s performance. F1 score achieves its best value at 1 and worst at 0.For finding the best model among the selected models first sample data of  100  students  was  tested  and  F1  score  is  calculated,  then sample size 200 students were taken and finally same model is  tested  with  sample  size  of  300  records.
 
 ## FUTURE WORK TO BE DONE:
 WANT TO DEPLOY THIS MODEL AND GIVE THIS PROJECT A USER INTERFACE.
