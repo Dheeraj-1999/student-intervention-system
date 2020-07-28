@@ -102,6 +102,21 @@ These generated columns are sometimes called dummy variables, and we will use th
 - Support Vector Machines (SVM)
 - Logistic Regression
 
+#### MODELS PROPERTIES:
+Random Forests:
+- Strengths	
+    - Handles binary features well because it is an ensemble of decision trees.
+    - Handle high dimensional spaces and large numbers of training examples well.
+    - Does not expect linear features or features that interact linearly.
+
+Logistic Regression
+- Strengths	
+    - Is simple and has low variance -> robust to noise and is less likely to over-fit.
+
+Reference documents:
+[What are the advantages of different classification algorithms?](https://www.quora.com/What-are-the-advantages-of-different-classification-algorithms)
+
+
 #### Evaluating Models
 - RANDOM FOREST CLASSIFIER:
   - F1 score for training set: 0.8189.
