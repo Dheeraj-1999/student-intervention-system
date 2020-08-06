@@ -106,14 +106,6 @@ These generated columns are sometimes called dummy variables, and we will use th
 - Support Vector Machines (SVM)
 - Logistic Regression
 
-#### :
-Random Forests:
-
-Logistic Regression
--
-
-Reference documents:
-[What are the advantages of different classification algorithms?](https://www.quora.com/What-are-the-advantages-of-different-classification-algorithms)
 
 
 #### Evaluating Models and MODELS PROPERTIES:
@@ -164,6 +156,9 @@ Limitations:
   - F1 score for test set: 0.7917.
   - acc score for training set: 0.7933.
   - acc score for test set: 0.6844.
+
+Reference documents:
+[What are the advantages of different classification algorithms?](https://www.quora.com/What-are-the-advantages-of-different-classification-algorithms)
 
 
 ### ANALYSIS:
