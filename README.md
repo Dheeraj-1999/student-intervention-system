@@ -106,50 +106,66 @@ These generated columns are sometimes called dummy variables, and we will use th
 - Support Vector Machines (SVM)
 - Logistic Regression
 
-#### MODELS PROPERTIES:
+#### :
 Random Forests:
-- Strengths	
-    - Handles binary features well because it is an ensemble of decision trees.
-    - Handle high dimensional spaces and large numbers of training examples well.
-    - Does not expect linear features or features that interact linearly.
 
 Logistic Regression
-- Strengths	
-    - Is simple and has low variance -> robust to noise and is less likely to over-fit.
+-
 
 Reference documents:
 [What are the advantages of different classification algorithms?](https://www.quora.com/What-are-the-advantages-of-different-classification-algorithms)
 
 
-#### Evaluating Models
-- RANDOM FOREST CLASSIFIER:
+#### Evaluating Models and MODELS PROPERTIES:
+# - RANDOM FOREST CLASSIFIER (Ensemble based):
   - F1 score for training set: 0.8189.
   - F1 score for test set: 0.8101.
   - acc score for training set: 0.7067.
   - acc score for test set: 0.6842.
-- XGBOOST CLASSIFIER:
+  
+- Strengths	
+    - Handles binary features well because it is an ensemble of decision trees.
+    - Handle high dimensional spaces and large numbers of training examples well.
+    - Does not expect linear features or features that interact linearly.
+  
+# - XGBOOST CLASSIFIER:
   - F1 score for training set: 0.7950.
   - F1 score for test set: 0.8101.
   - acc score for training set: 0.6700.
   - acc score for test set: 0.6842.
-- LogisticRegression:
+  
+# - LogisticRegression:
   - F1 score for training set: 0.8492.
   - F1 score for test set: 0.7273.
   - acc score for training set: 0.7833.
   - acc score for test set: 0.6211.
 
-- Support vector machine:
+ Strengths	
+    - Is simple and has low variance -> robust to noise and is less likely to over-fit.
+
+# - Support vector machine (Instance Based):
   - F1 score for training set: 0.8230.
   - F1 score for test set: 0.8153.
   - acc score for training set: 0.7133.
   - acc score for test set: 0.6947.
-  
+
+Strenghts:
+    - It works really well with a clear margin of separation
+    - It is effective in high dimensional spaces.
+    - It is effective in cases where the number of dimensions is greater than the number of samples.
+    - It uses a subset of training points in the decision function (called support vectors), so it is also memory efficient.
+Limitations:
+  - It doesn’t perform well when we have large data set because the required training time is higher
+  - It also doesn’t perform very well, when the data set has more noise i.e. target classes are overlapping
  
-KNeighborsClassifier:
+# - KNeighborsClassifier (Instance Based):
   - F1 score for training set: 0.8515.
   - F1 score for test set: 0.7917.
   - acc score for training set: 0.7933.
   - acc score for test set: 0.6844.
+  
+strengts:
+  - 
 
 
 ### ANALYSIS:
