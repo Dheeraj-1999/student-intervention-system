@@ -94,6 +94,11 @@ There are several non-numeric columns that need to be converted! Many of them ar
 
 These generated columns are sometimes called dummy variables, and we will use the pandas.get_dummies() function to perform this transformation.
 
+QUES: WHY MAKING DUMMY VARIABLES?
+ANS: what if we wanted to also know if favorite class (e.g., science, math, and language) corresponded with an increased GPA. Let’s say we coded this so that science = 1, math = 2, and language = 3. Looking at the nominal favorite class variable, we can see that there is no such thing as an increase in favorite class – math is not higher than science, and is not lower than language either. This is sometimes referred to as directionality, and knowing that a high versus low score means something is an integral part of regression analysis. 
+
+Dummy coding allows us to turn categories into something a regression can treat as having a high (1) and low (0) score. Any binary variable can be thought of as having directionality, because if it is higher, it is category 1, but if it is lower, it is category 0. This allows the regression look at directionality by comparing two sides, rather than expecting each unit to correspond with some kind of increase.
+
 #### Training and Testing Data Split
 
 - randomly shuffle and split the data (X_all, y_all) into training and testing subsets.
