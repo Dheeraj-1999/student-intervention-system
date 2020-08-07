@@ -156,7 +156,7 @@ Limitations:
 - It doesn’t perform well when we have large data set because the required training time is higher
 - It also doesn’t perform very well, when the data set has more noise i.e. target classes are overlapping
  
-# - KNeighborsClassifier (Instance Based):
+### - KNeighborsClassifier (Instance Based):
   - F1 score for training set: 0.8515.
   - F1 score for test set: 0.7917.
   - acc score for training set: 0.7933.
